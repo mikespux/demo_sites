@@ -1,0 +1,152 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Helvetica;
+	overflow-x:hidden;
+	color:#333;
+	-webkit-user-select:none;
+	-webkit-text-size-adjust:none
+}
+
+#header{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding-top:7px;
+	height:68px;
+	text-align:center;
+	position:relative;
+	background-color:#DB9717;
+}
+
+a,u{
+	cursor:pointer;
+	display:inline;
+	text-decoration:inherit;
+	color:#000;
+}
+
+*[onclick]{
+	cursor:pointer
+}
+
+.touch_footer{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width:100%;
+	background-color:#eee;
+	padding:6px 6px 6px 10px;
+	font-size:13px;
+	line-height:8px;
+	color:#777;
+	position:relative;
+	height: 37px;
+	float:left;
+
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+	display:block;
+	background-repeat: no-repeat;
+	background-color: #d3d3d2 ;
+	border-style: solid;
+	border-color: #333;
+}
+	
+input[type=submit], input[type=button]{
+	float:left;
+	margin-left:10px;
+	display : block;
+	margin-top : 10px;
+	padding : 1em;
+	width:25%;
+	cursor:pointer;
+	border : 3px;
+	-moz-border-radius : 3px;
+	font-family : arial;
+	font-size : 15px;
+	font-weight : bold; 
+}
+	
+input{
+	font-size : 15px;
+}
+	
+.login_form{
+	background-color:#eaeaea;
+	padding:20px;
+	overflow:auto;
+	margin-bottom:20px
+}
+
+.login_form form{
+	margin:0
+}
+
+.login_form .login_form_field{
+	width:100%;
+	font-size:18px;
+	font-weight:normal;
+	color:#222;
+	padding:8px 5px;
+	margin-bottom:10px
+}
+
+.login_form .login_form_label{
+	font-size:16px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#222
+}
+
+.login_form .button{
+	margin-top:10px;
+	padding:8px 30px;
+	font-size:14px
+}
+
+.login_left{
+	line-height:1.7em;
+	text-align:left;
+	float:left;
+	margin-left:12px;
+	margin-right:6px;
+	font-size:14px;
+	color:#777
+}
+
+.login_center{
+	line-height:1.7em;
+	text-align:center;
+	margin-left:6px;
+	margin-right:6px;
+	font-size:14px;
+	color:#777
+}
+
+.login_right{
+	line-height:1.7em;
+	text-align:right;
+	float:right;
+	margin-left:6px;
+	margin-right:12px;
+	font-size:14px;
+	color:#777
+}
+
+.button{
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:8px;
+	background-color:#DB9717;
+	color:#fff;
+	border-top:1px solid #9faecd;
+	border-left:1px solid #9faecd;
+	border-bottom:1px solid #273b65;
+	border-right:1px solid #273b65;
+	padding:4px 15px
+}

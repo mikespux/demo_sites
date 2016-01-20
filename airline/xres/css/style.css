@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* ========		reset		============================================================== */
+
+
+
+
+
+/* ========		layout		============================================================== */
+
+
+	
+/* ========		content		============================================================== */
+#content {
+	
+	
+	width:100%;
+	min-height:391px;
+	padding:0px;
+	
+	}
+* html #content {
+	
+	
+	width:500px;
+	overflow:auto;
+	padding:0px ;
+	
+	}
+/* rotator in-page placement */
+    div#rotator {
+	position:relative;
+	height:345px;
+}
+/* rotator css */
+	div#rotator ul li {
+	z-index:3;
+	
+	list-style: none;
+	position:absolute;
+}
+/* rotator image style */	
+    div#rotator ul li.show {
+	z-index:2;
+}
+* html div#rotator {
+	margin:0 0 43px 0;
+	}
+
+/* ========		footer		============================================================== */
+#footer {
+	float:left;
+	width:880px;
+	padding:0 0 0 50px;
+	color:#613e23;
+	font-size:80%;
+	text-align:center;
+}
+#footer h4 {
+	width:880px;	
+	text-align:center;
+	color:#ac7940;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:lighter;
+	font-size:170%
+}
+#footer a, #footer a:link {
+	color:#613e23;
+	text-decoration:none;
+}
+#footer a:hover {
+	color:#ac7940;
+}
+#footer h4 a, #footer h4 a:link {
+	color:#ac7940;
+}
+#footer h4 a:hover {
+	color:#613e23;
+}
+#footer img {
+	margin:18px 0 4px;	
+}
+
